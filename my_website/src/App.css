@@ -2,27 +2,150 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+/****Homepage****/
+.projects {
+  padding: 0px;
+}
+.projectheading{
+  text-align: center;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 42px;
+}
+.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8 {
+  height: 250px;
+  width: 320px;
+  padding-right: 0px;
+  padding-left: 0px;
+  flex-grow: 1;
+}
+.p1 {
+  background: url("./images/tvshowtrakr.png");
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 1px #fff;
+}
+.work:hover .overlay {
+    opacity: 1;
+}
+.overlay {
+    height: 248px;
+    opacity: 0;
+    width: 353px;
+    background: rgba(64, 35, 97, 0.85);
+    transition: opacity, 0.3s;
+    border: 1px solid rgba(64, 35, 97, 0.8);
+}
+.overlay-text {
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+  }
+.overlay-text h5 {
+  text-transform: uppercase;
+}
+.overlay-text p {
+  font-size: 14px;
+}
+.p2 {
+  background: url("./images/barhoppers.png");
+  background-size: 100% 100%;
+}
+.p3 {
+  background: url("./images/songgame.png");
+  background-size: 100% 100%;
+}
+.p4 {
+  background: url("./images/todo2.png");
+  background-size: 100% 100%;
+}
+.p5 {
+  background: url("./images/tictactoe.png");
+  background-size: 100% 100%;
+}
+.p6 {
+  background: url("./images/weather.png");
+  background-size: 100% 100%;
+}
+.p7 {
+  background: url("./images/seriesjunkie.png");
+  background-size: 100% 100%;
+}
+.p8 {
+  background: url("./images/cocktails.png");
+  background-size: 100% 100%;
+}
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+/****Heading*****/
+.heading{
+  height: 700px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner h1 {
+  font-size: 70px;
+  line-height: 30px;
+}
+.banner p {
+  font-size: 20px;
+  line-height: 0;
+}
+
+/*****NAV*****/
+.navbar {
+  background-color: #f2f2f2;
+  top: 0;
+}
+.nav ul {
+  height: 60px;
+}
+.navlink {
+  text-decoration: none;
+  list-style-type: none;
+}
+.nav {
+  width: 100%;
+  overflow: hidden;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.links {
+  margin-right: 40px;
+}
+.nav ul h3 {
+  width: 100px;
+  line-height: 53px;
+  padding:0px;
+  text-align:center;
+  display: block;
+  transition: .2s all linear;
+  font-size: 14px;
   color: white;
+  text-transform: uppercase;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.nav ul h2 {
+  font-size: 23px;
+  width: 200px;
+  float: left;
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
+}
+.nav ul li {
+  display: inline-block;
+  float: right;
+}
+.nav ul li h3:hover {
+  color: rgb(64, 35, 97);
 }
 
-.App-title {
-  font-size: 1.5em;
-}
 
-.App-intro {
-  font-size: large;
-}
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
+
+
