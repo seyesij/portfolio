@@ -7,6 +7,7 @@ import {
   Redirect
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Homepage from './components/Homepage';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
      <Router>
       <div className="App">
         <Navbar />
+        <Homepage />
 
 
       </div>
