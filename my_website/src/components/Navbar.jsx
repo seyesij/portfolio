@@ -6,14 +6,14 @@ const Navbar = (props) => {
     <div className="navbar">
           <div className="nav">
             <ul>
-              <h3>My Portfolio</h3>
-              <li><a href="https://www.linkedin.com/in/seyesijuwade/" target="_blank"><h3>linkedin</h3></a></li>
-              <li><a href="https://github.com/seyesij" target="_blank"><h3>github</h3></a></li>
+              <h2>My Portfolio</h2>
+              <div className="links">
+              <li><a href="https://www.linkedin.com/in/seyesijuwade/" target="_blank" rel="noopener noreferrer" className="navlink"><h3>linkedin</h3></a></li>
+              <li><a href="https://github.com/seyesij" target="_blank" rel="noopener noreferrer" className="navlink"><h3>github</h3></a></li>
               <li><NavLink className="navlink" exact to='/contact'><h3>contact</h3></NavLink></li>
               <li><NavLink className="navlink" exact to='/profile'><h3>about me</h3></NavLink></li>
-              <li>
-                <NavLink className="navlink" exact to='/'><h3>home</h3></NavLink>
-              </li>
+              <li><NavLink className="navlink" exact to='/'><h3>home</h3></NavLink></li>
+              </div>
             </ul>
           </div>
     </div>
