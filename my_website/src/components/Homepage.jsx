@@ -85,6 +85,9 @@ class Homepage extends Component {
             <Link to='/contact'>
               <button>Hire Me</button>
             </Link>
+            <div className="footer_bottom">
+              <p>Copyright © 2017. Website by Adeseye Sijuwade.</p>
+            </div>
           </div>
       </div>
     )
