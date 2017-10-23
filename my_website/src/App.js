@@ -6,6 +6,7 @@ import {
 } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
+import Contact from './components/Contact';
 
 class App extends Component {
   render() {
@@ -13,7 +14,8 @@ class App extends Component {
      <Router>
       <div className="App">
         <Navbar />
-        <Homepage />
+        <Route exact path='/' render={() => <Homepage /> } />
+        <Route exact path='/contact' render={() => <Contact /> } />
 
 
       </div>
