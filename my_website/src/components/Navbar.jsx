@@ -11,7 +11,7 @@ const Navbar = (props) => {
               <li><a href="https://www.linkedin.com/in/seyesijuwade/" target="_blank" rel="noopener noreferrer" className="navlink"><h3>linkedin</h3></a></li>
               <li><a href="https://github.com/seyesij" target="_blank" rel="noopener noreferrer" className="navlink"><h3>github</h3></a></li>
               <li><NavLink className="navlink" exact to='/contact'><h3>contact</h3></NavLink></li>
-              <li><NavLink className="navlink" exact to='/profile'><h3>about me</h3></NavLink></li>
+              <li><NavLink className="navlink" exact to='/about'><h3>about me</h3></NavLink></li>
               <li><NavLink className="navlink" exact to='/'><h3>home</h3></NavLink></li>
               </div>
             </ul>
