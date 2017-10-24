@@ -7,9 +7,9 @@ const Contact = (props) => {
             <h1>Contact Details</h1>
           </div>
           <div className="contact_info">
-            <p><span class="email">Email Address: </span> adeseyesijuwade@gmail.com</p>
-            <p><span class="phone">Phone Number: </span> +1(732)789 3916</p>
-            <p><span class="phone">Location: </span>New York, New York</p>
+            <p><span className="info">Email Address: </span> adeseyesijuwade@gmail.com</p>
+            <p><span className="info">Phone Number: </span> +1(732)789 3916</p>
+            <p><span className="info">Location: </span>New York, New York</p>
           </div>
     </div>
   )
