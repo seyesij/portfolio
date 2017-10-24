@@ -90,7 +90,7 @@ class Homepage extends Component {
                  <div className="overlay-inner">
                   <div className="overlay-text">
                     <h5>Cocktail Recipes</h5>
-                    <p>Rails</p>
+                    <p>Ruby on Rails</p>
                   </div>
                  </div>
                 </div>
