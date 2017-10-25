@@ -8,7 +8,8 @@
 }
 .projectheading{
   text-align: center;
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'Cutive Mono', monospace;
+  text-transform: uppercase;
   font-size: 42px;
 }
 .p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8 {
@@ -23,13 +24,17 @@
   background-size: 100% 100%;
   box-shadow: 0 0 0 1px #fff;
 }
-.work:hover .overlay {
+.work:hover .overlay-inner {
     opacity: 1;
 }
 .overlay {
+  display: flex;
+}
+.overlay-inner {
+    flex-grow: 1;
     height: 248px;
     opacity: 0;
-    width: 353px;
+    width: 350px;
     background: rgba(64, 35, 97, 0.85);
     transition: opacity, 0.3s;
     border: 1px solid rgba(64, 35, 97, 0.8);
@@ -41,9 +46,12 @@
   }
 .overlay-text h5 {
   text-transform: uppercase;
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
 }
 .overlay-text p {
   font-size: 14px;
+  font-family: 'Inconsolata', monospace;
 }
 .p2 {
   background: url("./images/barhoppers.png");
@@ -81,7 +89,7 @@
 
 /****Heading*****/
 .heading{
-  height: 700px;
+  height: 750px;
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
   display: flex;
@@ -91,10 +99,20 @@
 .banner h1 {
   font-size: 70px;
   line-height: 30px;
+  font-family: 'Inconsolata', monospace;
 }
-.banner p {
+.banner p{
+  font-size: 25px;
+  line-height: 0;
+  font-family: 'Inconsolata', monospace;
+  color: #ff884d;
+  padding-bottom: 7px;
+}
+.banner span{
   font-size: 20px;
   line-height: 0;
+  font-family: 'Inconsolata', monospace;
+  color: #ff884d;
 }
 
 /***FOOTER***/
@@ -104,7 +122,10 @@
 }
 .footer_bottom {
   line-height: 0px;
-  margin-top: 50px;
+  margin-top: 100px;
+}
+.footer_bottom p{
+  font-size: 12px;
 }
 button{
   padding: 15px 40px;
@@ -169,10 +190,94 @@ button:hover, button:focus {
   float: right;
 }
 .nav ul li h3:hover {
-  color: rgb(64, 35, 97);
+  color: #ff884d;
 }
 
+/****CONTACT****/
+.contact_page{
 
+}
+.contact_heading{
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+.contact_heading h1{
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 24px;
+  font-family: "Roboto Slab", sans-serif;
+}
+.contact_info{
+  margin-top: 50px;
+}
+.contact_info p{
+  margin-top: 20px;
+  font-family: 'Inconsolata', monospace;
+}
+.info {
+  text-transform: uppercase;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 14px;
+  font-weight: bolder;
+  color: #ff884d;
+}
+.contact_footer{
+    position:absolute;
+    width:100%;
+    bottom:0px;
+    font-size: 12px;
+}
+
+/****ABOUT****/
+.about_page{
+
+}
+.about_heading{
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+}
+.about_heading h1{
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 24px;
+  font-family: "Roboto Slab", sans-serif;
+}
+.about_info{
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+}
+.profpic{
+  background: url("./images/me.jpg");
+  background-size: 100% 100%;
+  width: 200px;
+  height: 200px;
+  border: 2px solid white;
+  border-radius: 50px;
+}
+.content{
+  width: 700px;
+  height: 200px;
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+}
+.you{
+  color: red;
+  font-weight: bold;
+}
 
 
 
