@@ -7,6 +7,7 @@ import {
 import Navbar from './components/Navbar';
 import Homepage from './components/Homepage';
 import Contact from './components/Contact';
+import About from './components/About';
 
 class App extends Component {
   render() {
@@ -16,8 +17,7 @@ class App extends Component {
         <Navbar />
         <Route exact path='/' render={() => <Homepage /> } />
         <Route exact path='/contact' render={() => <Contact /> } />
-
-
+        <Route exact path='/about' render={() => <About /> } />
       </div>
      </Router>
     );
