@@ -11,6 +11,9 @@ const Contact = (props) => {
             <p><span className="info">Phone Number: </span> +1(732)789 3916</p>
             <p><span className="info">Location: </span>New York, New York</p>
           </div>
+          <div className="contact_footer">
+            <p>Copyright © 2017. Website by Adeseye Sijuwade.</p>
+          </div>
     </div>
   )
 }
