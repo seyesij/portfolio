@@ -9,7 +9,7 @@ class Homepage extends Component {
             <div class="banner">
               <h1>Hello, I’m Seye</h1>
               <p>Web Developer | Data Guru</p>
-              <p>Scroll to see my work.</p>
+              <span>Scroll to see my work.</span>
             </div>
         </div>
           <div className="projects">
@@ -101,9 +101,9 @@ class Homepage extends Component {
             <Link to='/contact'>
               <button>Hire Me</button>
             </Link>
-            <div className="footer_bottom">
-              <p>Copyright © 2017. Website by Adeseye Sijuwade.</p>
-            </div>
+          </div>
+          <div className="footer_bottom">
+            <p>Copyright © 2017. Website by Adeseye Sijuwade.</p>
           </div>
       </div>
     )
