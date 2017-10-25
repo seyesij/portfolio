@@ -99,7 +99,7 @@ class Homepage extends Component {
           </div>
           <div className="footer">
             <Link to='/contact'>
-              <button>Hire Me</button>
+              <button>Contact Me</button>
             </Link>
           </div>
           <div className="footer_bottom">
