@@ -5,7 +5,7 @@ const Navbar = (props) => {
   return(
     <div className="navbar">
           <div className="nav">
-            <a href="" className="menu-icon"></a>
+            <a href='#' className="menu-icon"></a>
             <ul>
               <h2>My Portfolio</h2>
               <div className="links">
