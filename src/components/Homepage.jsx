@@ -5,8 +5,8 @@ class Homepage extends Component {
   render(){
     return (
       <div className="home">
-        <div class="heading">
-            <div class="banner">
+        <div className="heading">
+            <div className="banner">
               <h1>Hello, I’m Seye</h1>
               <p>Web Developer | Data Guru</p>
               <span>Scroll to see my work.</span>
@@ -26,9 +26,9 @@ class Homepage extends Component {
                 </div>
               </a></div>
               <div className="p2"><a href="https://barhoppers.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="work">
-                <div class="overlay">
+                <div className="overlay">
                  <div className="overlay-inner">
-                  <div class="overlay-text">
+                  <div className="overlay-text">
                     <h5>Bar Hoppers</h5>
                     <p>React.js, Express.js, SQL, CSS</p>
                   </div>
