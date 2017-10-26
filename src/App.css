@@ -170,7 +170,7 @@ button:hover, button:focus {
 .nav ul h3 {
   width: 100px;
   line-height: 53px;
-  padding:0px;
+  padding: 0px 0px 10px 0px;
   text-align:center;
   display: block;
   transition: .2s all linear;
@@ -185,6 +185,7 @@ button:hover, button:focus {
   float: left;
   color: white;
   font-family: 'Julius Sans One', sans-serif;
+  padding-top: 5px;
 }
 .nav ul li {
   display: inline-block;
@@ -192,6 +193,16 @@ button:hover, button:focus {
 }
 .nav ul li h3:hover {
   color: #ff884d;
+}
+.menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: #ff884d url(./images/menu-icon.png) center;
+}
+b:hover.menu-icon {
+  background-color: #444;
+  border-radius: 4px 4px 0 0;
 }
 
 /****CONTACT****/
@@ -274,7 +285,7 @@ button:hover, button:focus {
   font-weight: bold;
 }
 /***MEDIA-SCREEN***/
-@media screen and (max-width: 779px) and (min-width: 481px) {
+@media screen and (max-width: 779px) and (min-width: 675px) {
   .nav ul {
     height: 30px;
   }
@@ -288,8 +299,12 @@ button:hover, button:focus {
     font-size: 12px;
   }
   .nav ul h2 {
-    display: none;
+    font-size: 18px;
+    padding: 0px;
   }
+}
+
+@media screen and (max-width: 779px) and (min-width: 481px) {
   .heading{
     height: 600px;
   }
@@ -338,23 +353,6 @@ button:hover, button:focus {
   }
 }
 @media screen and (max-width: 480px) and (min-width: 376px) {
-  .nav{
-    height: 80px;
-  }
-  .links {
-    float: none;
-    margin-top: 30px;
-  }
-  .nav ul h3 {
-    display: inline;
-    line-height: 0px;
-    text-align:center;
-    font-size: 12px;
-    padding-right: 9px;
-  }
-  .nav ul h2 {
-    display: none;
-  }
   .heading {
     height: 500px;
   }
@@ -411,14 +409,6 @@ button:hover, button:focus {
 }
 
 @media screen and (max-width: 375px) {
-  .nav ul {
-    width: 70px;
-  }
-  .nav ul h3 {
-    font-size: 9px;
-    width: 100%;
-    line-height: 0px;
-  }
   .heading {
     height: 500px;
   }
@@ -432,9 +422,6 @@ button:hover, button:focus {
   }
   .banner span {
     font-size: 17px;
-  }
-  .nav ul h2 {
-    display: none;
   }
   .projectheading {
     font-size: 27px;
@@ -475,6 +462,43 @@ button:hover, button:focus {
     padding: 11px 7px;
     font-size: 8px;
     letter-spacing: 2px;
+  }
+}
+@media only screen and (max-width : 674px) {
+  .menu-icon {
+    display:inline-block;
+    float: right;
+  }
+  .nav ul {
+    display: none;
+    height: 190px;
+    width: 180px;
+    float: none;
+    margin-top: 0px;
+    background: #fff;
+    border: 5px solid #444;
+    border-radius: 4px 0 4px 4px;
+  }
+  .nav ul li {
+    float: none;
+  }
+  .nav:hover ul {
+    display: block;
+  }
+  .nav ul h3 {
+    font-size: 16px;
+    width: 100px;
+    line-height: 3px;
+    color: purple;
+    margin: 13.7px 0px;
+  }
+  .nav ul h2 {
+    display: none;
+  }
+  .links {
+    margin-left: 20px;
+    width: 90px;
+    height: 200px;
   }
 }
 
