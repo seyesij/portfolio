@@ -469,7 +469,7 @@ b:hover.menu-icon {
     display:inline-block;
     float: right;
   }
-  .nav ul {
+  .nav ul, .nav:active ul {
     display: none;
     height: 190px;
     width: 180px;
