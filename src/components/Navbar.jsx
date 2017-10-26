@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = (props) => {
   return(
     <div className="navbar">
           <div className="nav">
+            <b href="" className="menu-icon"></b>
             <ul>
               <h2>My Portfolio</h2>
               <div className="links">
