@@ -2,11 +2,12 @@
   text-align: center;
 }
 
+
 /****Homepage****/
 .projects {
   padding: 0px;
 }
-.projectheading{
+.projectheading {
   text-align: center;
   font-family: 'Cutive Mono', monospace;
   text-transform: uppercase;
@@ -81,14 +82,14 @@
   background: url("./images/cocktails.png");
   background-size: 100% 100%;
 }
-.images{
+.images {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
 }
 
 /****Heading*****/
-.heading{
+.heading {
   height: 750px;
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
@@ -101,14 +102,14 @@
   line-height: 30px;
   font-family: 'Inconsolata', monospace;
 }
-.banner p{
+.banner p {
   font-size: 25px;
   line-height: 0;
   font-family: 'Inconsolata', monospace;
   color: #ff884d;
   padding-bottom: 7px;
 }
-.banner span{
+.banner span {
   font-size: 20px;
   line-height: 0;
   font-family: 'Inconsolata', monospace;
@@ -124,10 +125,10 @@
   line-height: 0px;
   margin-top: 100px;
 }
-.footer_bottom p{
+.footer_bottom p {
   font-size: 12px;
 }
-button{
+button {
   padding: 15px 10px;
   background-color: #ff884d;
   color: #fff;
@@ -194,10 +195,7 @@ button:hover, button:focus {
 }
 
 /****CONTACT****/
-.contact_page{
-
-}
-.contact_heading{
+.contact_heading {
   padding-top: 60px;
   display: flex;
   justify-content: center;
@@ -206,14 +204,14 @@ button:hover, button:focus {
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
 }
-.contact_heading h1{
+.contact_heading h1 {
   font-size: 36px;
   font-weight: 400;
   letter-spacing: 3px;
   line-height: 24px;
   font-family: "Roboto Slab", sans-serif;
 }
-.contact_info{
+.contact_info {
   margin-top: 50px;
 }
 .contact_info p{
@@ -227,7 +225,7 @@ button:hover, button:focus {
   font-weight: bolder;
   color: #ff884d;
 }
-.contact_footer{
+.contact_footer {
     position:absolute;
     width:100%;
     bottom:0px;
@@ -235,10 +233,7 @@ button:hover, button:focus {
 }
 
 /****ABOUT****/
-.about_page{
-
-}
-.about_heading{
+.about_heading {
   padding-top: 60px;
   display: flex;
   justify-content: center;
@@ -247,20 +242,20 @@ button:hover, button:focus {
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
 }
-.about_heading h1{
+.about_heading h1 {
   font-size: 36px;
   font-weight: 400;
   letter-spacing: 3px;
   line-height: 24px;
   font-family: "Roboto Slab", sans-serif;
 }
-.about_info{
+.about_info {
   justify-content: space-around;
   align-items: center;
   margin-top: 50px;
   display: flex;
 }
-.profpic{
+.profpic {
   background: url("./images/me.jpg");
   background-size: 100% 100%;
   width: 200px;
@@ -268,7 +263,7 @@ button:hover, button:focus {
   border: 2px solid white;
   border-radius: 50px;
 }
-.content{
+.content {
   width: 700px;
   height: 200px;
   font-family: 'Inconsolata', monospace;
@@ -278,6 +273,208 @@ button:hover, button:focus {
   color: red;
   font-weight: bold;
 }
+/***MEDIA-SCREEN***/
+@media screen and (max-width: 779px) and (min-width: 481px) {
+  .nav ul {
+    height: 30px;
+  }
+  .links {
+    margin-right: 70px;
+  }
+  .nav ul h3 {
+    width: 73px;
+    line-height: 33px;
+    text-align:center;
+    font-size: 12px;
+  }
+  .nav ul h2 {
+    display: none;
+  }
+  .heading{
+    height: 600px;
+  }
+  .banner h1 {
+    font-size: 48px;
+  }
+  .banner p {
+    font-size: 21px;
+    padding-bottom: 2px;
+  }
+  .banner span {
+    font-size: 19px;
+  }
+  .projectheading {
+    font-size: 34px;
+  }
+  .contact_heading {
+    padding-top: 60px;
+    height: 200px;
+  }
+  .about_heading {
+    padding-top: 80px;
+    height: 145px;
+  }
+  .about_heading h1 {
+    font-size: 26px;
+  }
+  .profpic {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+  }
+  .content {
+    margin: auto;
+    width: 100%;
+    font-size: 17px;
+  }
+  .about_info {
+    display: block;
+    margin-top: 38px;
+  }
+  button {
+    padding: 13px 9px;
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width: 480px) and (min-width: 376px) {
+  .nav{
+    height: 80px;
+  }
+  .links {
+    float: none;
+    margin-top: 30px;
+  }
+  .nav ul h3 {
+    display: inline;
+    line-height: 0px;
+    text-align:center;
+    font-size: 12px;
+    padding-right: 9px;
+  }
+  .nav ul h2 {
+    display: none;
+  }
+  .heading {
+    height: 500px;
+  }
+  .banner h1 {
+    font-size: 44px;
+  }
+  .banner p {
+    font-size: 19px;
+    padding-bottom: 2px;
+  }
+  .banner span {
+    font-size: 17px;
+  }
+  .projectheading {
+    font-size: 31px;
+  }
+  .contact_heading {
+    padding-top: 85px;
+    height: 150px;
+  }
+  .contact_heading h1 {
+    font-size: 26px;
+  }
+  .info {
+    font-size: 13px;
+  }
+  .about_heading {
+    padding-top: 88px;
+    height: 120px;
+  }
+  .about_heading h1 {
+    font-size: 24px;
+  }
+  .profpic {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+  }
+  .content {
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    font-size: 14px;
+  }
+  .about_info {
+    display: block;
+    margin-top: 30px;
+  }
+  button {
+    padding: 12px 8px;
+    font-size: 9px;
+    letter-spacing: 2px;
+  }
+}
 
-
+@media screen and (max-width: 375px) {
+  .nav ul {
+    width: 70px;
+  }
+  .nav ul h3 {
+    font-size: 9px;
+    width: 100%;
+    line-height: 0px;
+  }
+  .heading {
+    height: 500px;
+  }
+  .banner h1 {
+    font-size: 40px;
+    padding-top: 40px;
+  }
+  .banner p {
+    font-size: 18px;
+    padding-bottom: 2px;
+  }
+  .banner span {
+    font-size: 17px;
+  }
+  .nav ul h2 {
+    display: none;
+  }
+  .projectheading {
+    font-size: 27px;
+  }
+  .contact_heading {
+    padding-top: 85px;
+    height: 150px;
+  }
+  .contact_heading h1 {
+    font-size: 24px;
+  }
+  .info {
+    font-size: 13px;
+  }
+  .about_heading {
+    padding-top: 88px;
+    height: 120px;
+  }
+  .about_heading h1 {
+    font-size: 24px;
+  }
+  .profpic {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+  }
+  .content {
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    font-size: 14px;
+  }
+  .about_info {
+    display: block;
+    margin-top: 30px;
+  }
+  button {
+    padding: 11px 7px;
+    font-size: 8px;
+    letter-spacing: 2px;
+  }
+}
 
