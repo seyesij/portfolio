@@ -20,7 +20,7 @@ class Homepage extends Component {
                   <div className="overlay-inner">
                    <div className="overlay-text">
                     <h5>TV Show Trackr</h5>
-                    <p>React.js, Express.js, SQL, CSS, REST API</p>
+                    <p>React.js, Express.js, SQL, CSS3, REST API</p>
                    </div>
                   </div>
                 </div>
@@ -30,7 +30,7 @@ class Homepage extends Component {
                  <div className="overlay-inner">
                   <div className="overlay-text">
                     <h5>Bar Hoppers</h5>
-                    <p>React.js, Express.js, SQL, CSS</p>
+                    <p>React.js, Express.js, SQL, CSS3</p>
                   </div>
                  </div>
                 </div>
@@ -40,7 +40,7 @@ class Homepage extends Component {
                  <div className="overlay-inner">
                   <div className="overlay-text">
                     <h5>Guess-the-Song</h5>
-                    <p>HTML, CSS, JavaScript</p>
+                    <p>HTML5, CSS3, JavaScript</p>
                   </div>
                  </div>
                 </div>
@@ -50,7 +50,7 @@ class Homepage extends Component {
                  <div className="overlay-inner">
                   <div className="overlay-text">
                     <h5>To-Do-App</h5>
-                    <p>Express.js, SQL, CSS</p>
+                    <p>Express.js, SQL, CSS3</p>
                   </div>
                  </div>
                 </div>
@@ -60,7 +60,7 @@ class Homepage extends Component {
                  <div className="overlay-inner">
                   <div className="overlay-text">
                     <h5>Tic-Tac-Toe</h5>
-                    <p>HTML, CSS, JavaScript</p>
+                    <p>HTML5, CSS3, JavaScript</p>
                   </div>
                  </div>
                 </div>
@@ -70,7 +70,7 @@ class Homepage extends Component {
                  <div className="overlay-inner">
                   <div className="overlay-text">
                     <h5>Weather App</h5>
-                    <p>React.js, CSS</p>
+                    <p>React.js, Firebase, CSS3</p>
                   </div>
                  </div>
                 </div>
@@ -80,7 +80,7 @@ class Homepage extends Component {
                  <div className="overlay-inner">
                   <div className="overlay-text">
                     <h5>Series Junke</h5>
-                    <p>Node.js, Express.js, EJS, CSS, SQL, REST API</p>
+                    <p>Node.js, Express.js, EJS, CSS3, SQL, REST API</p>
                   </div>
                  </div>
                 </div>
