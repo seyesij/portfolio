@@ -223,11 +223,12 @@ a:hover.menu-icon, a:active.menu-icon, a:focus.menu-icon {
   font-family: "Roboto Slab", sans-serif;
 }
 .contact_info {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .contact_info p{
-  margin-top: 20px;
+  margin-top: 15px;
   font-family: 'Inconsolata', monospace;
+/*  border: 1px solid blue;*/
 }
 .info {
   text-transform: uppercase;
@@ -241,6 +242,24 @@ a:hover.menu-icon, a:active.menu-icon, a:focus.menu-icon {
     width:100%;
     bottom:0px;
     font-size: 12px;
+}
+.linkedin a {
+  display: inline-block;
+  line-height: 0;
+  color: black;
+}
+.linkedin a:hover {
+  color: purple;
+}
+.linkedin {
+  line-height: 0;
+}
+.link {
+  text-decoration: none;
+  list-style-type: none;
+}
+.other {
+  padding-bottom: 9px;
 }
 
 /****ABOUT****/
