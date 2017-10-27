@@ -293,7 +293,7 @@ a:hover.menu-icon, a:active.menu-icon, a:focus.menu-icon {
   border-radius: 50px;
 }
 .content {
-  width: 660px;
+  width: 700px;
   height: 200px;
   font-family: 'Inconsolata', monospace;
   font-size: 18px;
