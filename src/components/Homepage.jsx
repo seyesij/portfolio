@@ -35,16 +35,6 @@ class Homepage extends Component {
                  </div>
                 </div>
               </a></div>
-              <div className="p3"><a href="http://guessthesong.bitballoon.com/" target="_blank" rel="noopener noreferrer" className="work">
-                <div className="overlay">
-                 <div className="overlay-inner">
-                  <div className="overlay-text">
-                    <h5>Guess-the-Song</h5>
-                    <p>HTML5, CSS3, JavaScript</p>
-                  </div>
-                 </div>
-                </div>
-              </a></div>
               <div className="p5"><a href="http://seyereact-weatherapp.bitballoon.com/" rel="noopener noreferrer" target="_blank" className="work">
                 <div className="overlay">
                  <div className="overlay-inner">
@@ -55,11 +45,11 @@ class Homepage extends Component {
                  </div>
                 </div>
               </a></div>
-              <div className="p4"><a href="http://seyetictactoegame.bitballoon.com/" target="_blank" rel="noopener noreferrer" className="work">
+              <div className="p3"><a href="http://guessthesong.bitballoon.com/" target="_blank" rel="noopener noreferrer" className="work">
                 <div className="overlay">
                  <div className="overlay-inner">
                   <div className="overlay-text">
-                    <h5>Tic-Tac-Toe</h5>
+                    <h5>Guess-the-Song</h5>
                     <p>HTML5, CSS3, JavaScript</p>
                   </div>
                  </div>
@@ -69,8 +59,18 @@ class Homepage extends Component {
                 <div className="overlay">
                  <div className="overlay-inner">
                   <div className="overlay-text">
-                    <h5>Series Junke</h5>
+                    <h5>Series Junkie</h5>
                     <p>Node.js, Express.js, EJS, CSS3, SQL, REST API</p>
+                  </div>
+                 </div>
+                </div>
+              </a></div>
+              <div className="p4"><a href="http://seyetictactoegame.bitballoon.com/" target="_blank" rel="noopener noreferrer" className="work">
+                <div className="overlay">
+                 <div className="overlay-inner">
+                  <div className="overlay-text">
+                    <h5>Tic-Tac-Toe</h5>
+                    <p>HTML5, CSS3, JavaScript</p>
                   </div>
                  </div>
                 </div>
