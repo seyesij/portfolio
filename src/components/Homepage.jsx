@@ -45,27 +45,7 @@ class Homepage extends Component {
                  </div>
                 </div>
               </a></div>
-              <div className="p4"><a href="https://to-dosapp.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="work">
-                <div className="overlay">
-                 <div className="overlay-inner">
-                  <div className="overlay-text">
-                    <h5>To-Do-App</h5>
-                    <p>Express.js, SQL, CSS3</p>
-                  </div>
-                 </div>
-                </div>
-              </a></div>
-              <div className="p5"><a href="http://seyetictactoegame.bitballoon.com/" target="_blank" rel="noopener noreferrer" className="work">
-                <div className="overlay">
-                 <div className="overlay-inner">
-                  <div className="overlay-text">
-                    <h5>Tic-Tac-Toe</h5>
-                    <p>HTML5, CSS3, JavaScript</p>
-                  </div>
-                 </div>
-                </div>
-              </a></div>
-              <div className="p6"><a href="http://seyereact-weatherapp.bitballoon.com/" rel="noopener noreferrer" target="_blank" className="work">
+              <div className="p5"><a href="http://seyereact-weatherapp.bitballoon.com/" rel="noopener noreferrer" target="_blank" className="work">
                 <div className="overlay">
                  <div className="overlay-inner">
                   <div className="overlay-text">
@@ -75,22 +55,22 @@ class Homepage extends Component {
                  </div>
                 </div>
               </a></div>
-              <div className="p7"><a href="https://seriesjunkie.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="work">
+              <div className="p4"><a href="http://seyetictactoegame.bitballoon.com/" target="_blank" rel="noopener noreferrer" className="work">
+                <div className="overlay">
+                 <div className="overlay-inner">
+                  <div className="overlay-text">
+                    <h5>Tic-Tac-Toe</h5>
+                    <p>HTML5, CSS3, JavaScript</p>
+                  </div>
+                 </div>
+                </div>
+              </a></div>
+              <div className="p6"><a href="https://seriesjunkie.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="work">
                 <div className="overlay">
                  <div className="overlay-inner">
                   <div className="overlay-text">
                     <h5>Series Junke</h5>
                     <p>Node.js, Express.js, EJS, CSS3, SQL, REST API</p>
-                  </div>
-                 </div>
-                </div>
-              </a></div>
-              <div className="p8"><a href="https://github.com/seyesij/cocktail_app" target="_blank" rel="noopener noreferrer" className="work">
-                <div className="overlay">
-                 <div className="overlay-inner">
-                  <div className="overlay-text">
-                    <h5>Cocktail Recipes</h5>
-                    <p>Ruby on Rails</p>
                   </div>
                  </div>
                 </div>

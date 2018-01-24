@@ -13,9 +13,9 @@
   text-transform: uppercase;
   font-size: 42px;
 }
-.p1, .p2, .p3, .p4, .p5, .p6, .p7, .p8 {
-  height: 250px;
-  width: 320px;
+.p1, .p2, .p3, .p4, .p5, .p6 {
+  height: 300px;
+  width: 400px;
   padding-right: 0px;
   padding-left: 0px;
   flex-grow: 1;
@@ -33,7 +33,7 @@
 }
 .overlay-inner {
     flex-grow: 1;
-    height: 248px;
+    height: 300px;
     opacity: 0;
     width: 350px;
     background: rgba(64, 35, 97, 0.85);
@@ -68,23 +68,15 @@
   background-size: 100% 100%;
 }
 .p4 {
-  background: url("./images/todo2.png");
-  background-size: 100% 100%;
-}
-.p5 {
   background: url("./images/tictactoe.png");
   background-size: 100% 100%;
 }
-.p6 {
+.p5 {
   background: url("./images/weather.png");
   background-size: 100% 100%;
 }
-.p7 {
+.p6 {
   background: url("./images/seriesjunkie.png");
-  background-size: 100% 100%;
-}
-.p8 {
-  background: url("./images/cocktails.png");
   background-size: 100% 100%;
 }
 .images {
